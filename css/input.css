@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand-200: #e4ef97;
+  --color-brand-500: #c9df2f;
+  --color-brand-700: #a0b225;
+
+  --color-accent: #ca813b;
+
+  --color-error: #b90303;
+  --color-success: #6a7718;
+
+  --font-default: "Trebuchet MS", Arial, sans-serif;
+}
