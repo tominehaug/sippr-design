@@ -3,98 +3,136 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feed | Sippr</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <script
       src="https://kit.fontawesome.com/4b71fec88a.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header>
-      <a href="feed/index.html">
+    <header
+      class="bg-brand-500 relative mb-3 flex items-center justify-center p-5"
+    >
+      <a href="./">
         <img src="/assets/logo.svg" alt="Sippr logo" width="148" height="58" />
       </a>
-      <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+      <i class="fa-solid fa-magnifying-glass absolute right-4 text-3xl"></i>
     </header>
-    <section>
-      <div>
-        <p>@luna.daily</p>
+    <section class="mr-2 ml-2 flex flex-col gap-2">
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@luna.daily</p>
         <img src="../img/empanadas.jpg" alt="freshly baked empanadas" />
-        <h2>Dinner</h2>
-        <p>Tried a new recipe. It actually turned out edible.</p>
+        <h2 class="ml-2 text-lg font-semibold">Dinner</h2>
+        <p class="ml-2 text-lg">
+          Tried a new recipe. It actually turned out edible.
+        </p>
       </div>
-      <div>
-        <p>@benji.design</p>
-        <h2>Design Notes</h2>
-        <p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@benji.design</p>
+        <h2 class="ml-2 text-lg font-semibold">Design Notes</h2>
+        <p class="ml-2 text-lg">
           Experimenting with new layouts and interactions today. Sometimes the
           simplest solution is the best one.
         </p>
       </div>
-      <div>
-        <p>@alexnorth</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@alexnorth</p>
         <img src="../img/morning.jpg" alt="Sun rays coming through window." />
-        <h2>Morning update</h2>
-        <p>Fresh ideas, strong coffee, and a full day ahead ☕</p>
+        <h2 class="ml-2 text-lg font-semibold">Morning update</h2>
+        <p class="ml-2 text-lg">
+          Fresh ideas, strong coffee, and a full day ahead ☕
+        </p>
       </div>
-      <div>
-        <p>@mariamoves</p>
-        <h2>Coffee thoughts</h2>
-        <p>Made coffee. Forgot about it. Made another coffee.</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@mariamoves</p>
+        <h2 class="ml-2 text-lg font-semibold">Coffee thoughts</h2>
+        <p class="ml-2 text-lg">
+          Made coffee. Forgot about it. Made another coffee.
+        </p>
       </div>
-      <div>
-        <p>@ellie.notes</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@ellie.notes</p>
         <img src="../img/rainy.jpg" alt="raindrops on window" />
-        <h2>What is this weather?</h2>
-        <p>It looked sunny five minutes ago. Now it's raining.</p>
+        <h2 class="ml-2 text-lg font-semibold">What is this weather?</h2>
+        <p class="ml-2 text-lg">
+          It looked sunny five minutes ago. Now it's raining.
+        </p>
       </div>
-      <div>
-        <p>@theo.jpg</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@theo.jpg</p>
         <img src="../img/brasil.jpg" alt="" />
-        <h2>Rio de Janeiro, Brasil</h2>
-        <p>From my travel in January.</p>
+        <h2 class="ml-2 text-lg font-semibold">Rio de Janeiro, Brasil</h2>
+        <p class="ml-2 text-lg">From my travel in January.</p>
       </div>
-      <div>
-        <p>@madebymaya</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@madebymaya</p>
         <img
           src="https://cdn.pixabay.com/photo/2013/09/08/19/57/pottery-180555_1280.jpg"
           alt="Ceramics vase and bowl set"
         />
-        <h2>Vase and bowl set</h2>
-        <p>My most recent project. Hardest one so far.</p>
+        <h2 class="ml-2 text-lg font-semibold">Vase and bowl set</h2>
+        <p class="ml-2 text-lg">My most recent project. Hardest one so far.</p>
       </div>
-      <div>
-        <p>@heyoliver</p>
-        <h2>Love my neighbourhood</h2>
-        <p>Went for a quick walk and somehow ended up out for an hour.</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@heyoliver</p>
+        <h2 class="ml-2 text-lg font-semibold">Love my neighbourhood</h2>
+        <p class="ml-2 text-lg">
+          Went for a quick walk and somehow ended up out for an hour.
+        </p>
       </div>
-      <div>
-        <p>@thejuneedit</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@thejuneedit</p>
         <img src="../img/book.jpg" alt="Book with the title Milk and honey." />
-        <h2>1/5 June-reads</h2>
-        <p>Finished this book today. Review will come soon.</p>
+        <h2 class="ml-2 text-lg font-semibold">1/5 June-reads</h2>
+        <p class="ml-2 text-lg">
+          Finished this book today. Review will come soon.
+        </p>
       </div>
-      <div>
-        <p>@theo.jpg</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@theo.jpg</p>
         <img src="../img/costa-rica.jpg" alt="A toucan among green leaves." />
-        <h2>Nosara, Costa Rica</h2>
-        <p>A toucan from my travels last year.</p>
+        <h2 class="ml-2 text-lg font-semibold">Nosara, Costa Rica</h2>
+        <p class="ml-2 text-lg">A toucan from my travels last year.</p>
       </div>
-      <div>
-        <p>@benji.design</p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-center text-lg">@benji.design</p>
         <img src="../img/sketch.jpg" alt="Design sketches on notepad." />
-        <h2>New challenges</h2>
-        <p>Working on some skethces for a new and exciting project.</p>
+        <h2 class="ml-2 text-lg font-semibold">New challenges</h2>
+        <p class="ml-2 text-lg">
+          Working on some skethces for a new and exciting project.
+        </p>
       </div>
     </section>
     <div>
-      <p>No more sips!</p>
       <img
         src="/assets/juice_empty.svg"
         alt="Sippr logo"
-        width="148"
-        height="58"
+        width="80"
+        height="120"
       />
+      <p>No more sips!</p>
     </div>
     <footer>
       <button><i class="fa-solid fa-plus"></i></button>

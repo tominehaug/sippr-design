@@ -3,22 +3,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <script
       src="https://kit.fontawesome.com/4b71fec88a.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header>
+    <header class="bg-brand-500 relative flex items-center justify-center p-5">
       <a href="../feed/index.html">
-        <img
-          src="../assets/logo.svg"
-          alt="Sippr logo"
-          width="148"
-          height="58"
-        />
+        <img src="/assets/logo.svg" alt="Sippr logo" width="148" height="58" />
       </a>
+      <i
+        class="fa-solid fa-arrow-right-from-bracket absolute right-4 text-3xl"
+      ></i>
     </header>
     <section>
       <img
@@ -31,53 +29,73 @@
         <p>Following: 41</p>
       </div>
     </section>
-    <section>
-      <div>
+    <section class="mr-2 ml-2 flex flex-col gap-2">
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-accent mr-2 text-right text-lg">20/05/2026</p>
         <img
           src="../img/painting.jpg"
           alt="An oil painting of a city landscape in sunset."
         />
-        <h2>Sunset, Oil on Canvas</h2>
-        <p>A painting I did for a commission last year.</p>
+        <h2 class="ml-2 text-lg font-semibold">Sunset, Oil on Canvas</h2>
+        <p class="ml-2 text-lg">A painting I did for a commission last year.</p>
       </div>
-      <div>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-accent mr-2 text-right text-lg">07/05/2026</p>
         <img src="../img/pottery.jpg" alt="Ceramics vase and bowl set." />
-        <h2>Vase and bowl set</h2>
-        <p>My most recent project. Hardest one so far.</p>
+        <h2 class="ml-2 text-lg font-semibold">Vase and bowl set</h2>
+        <p class="ml-2 text-lg">My most recent project. Hardest one so far.</p>
       </div>
-      <div>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-accent mr-2 text-right text-lg">03/05/2026</p>
         <img
           src="../img/pottery-wheel.jpg"
           alt="Hands shaping a vase with clay on pottery wheel."
         />
-        <h2>Learning the pottery wheel</h2>
-        <p>Working on something new. Stay tuned to see the result.</p>
+        <h2 class="ml-2 text-lg font-semibold">Learning the pottery wheel</h2>
+        <p class="ml-2 text-lg">
+          Working on something new. Stay tuned to see the result.
+        </p>
       </div>
-      <div>
-        <h2>Thank you all!</h2>
-        <p>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-accent mr-2 text-right text-lg">15/04/2026</p>
+        <h2 class="ml-2 text-lg font-semibold">Thank you all!</h2>
+        <p class="ml-2 text-lg">
           Just wanted say thank you to everyone who supports me and my work here
           on this platform! It means a lot.
         </p>
       </div>
-      <div>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-accent mr-2 text-right text-lg">11/04/2026</p>
         <img
           src="../img/bears.jpg"
           alt="Knitted teddy bears in bright colors."
         />
-        <h2>Knitting phase!</h2>
-        <p>
+        <h2 class="ml-2 text-lg font-semibold">Knitting phase!</h2>
+        <p class="ml-2 text-lg">
           I have been getting back into knitting with a production of these
           colorful teddy bears.
         </p>
       </div>
-      <div>
+      <div
+        class="border-brand-500 text-default flex flex-col gap-2 rounded-lg border-3 border-dashed pt-1 pb-2"
+      >
+        <p class="text-accent mr-2 text-right text-lg">27/03/2026</p>
         <img
           src="../img/chickens.jpg"
           alt="Hand sewn decorative chicken figures."
         />
-        <h2>Easter activity!</h2>
-        <p>
+        <h2 class="ml-2 text-lg font-semibold">Easter activity!</h2>
+        <p class="ml-2 text-lg">
           Made these cute decorative chickens with my nephews this easter. Fun
           for both the kids and grown ups.
         </p>
