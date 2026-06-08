@@ -1,11 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
 @import "tailwindcss";
 
 @theme {
   --color-brand-200: #e4ef97;
   --color-brand-500: #c9df2f;
-  --color-brand-700: #a0b225;
-
-  --color-accent: #ca813b;
+  --color-brand-800: #808e1d;
 
   --font-default: "Trebuchet MS", Arial, sans-serif;
+  --font-special: "Mynerve", cursive;
 }
